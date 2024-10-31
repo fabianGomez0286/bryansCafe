@@ -1,0 +1,9 @@
+<!ELEMENT menu (meal+, beverage+)>
+<!ELEMENT meal (name, price, description, image)>
+<!ELEMENT beverage (type, (size | name), price, description?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT size (#PCDATA)>

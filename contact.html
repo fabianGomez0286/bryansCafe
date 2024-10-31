@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan's Café - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Bryan's Café</a>
+        <div class="nav-links">
+            <a href="index.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <h1>Contact Us</h1>
+       
+            <div class="form1">
+                <form  onsubmit="return submitForm();">
+                    <div class="contact-form">
+                        <label for="txtFName">First name </label>
+                        <input id="txtFName" type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="contact-form">
+                        <label for="txtLName">Last Name</label>
+                        <input id="txtLName" type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="contact-form">
+                        <label for="txtEmail">Email</label>
+                        <input id="txtEmail" type="email" placeholder="Email" required>
+                    </div>
+                    <div class="contact-form">
+                        <label for="txtSubject">Subject</label>
+                        <input id="txtSubject" type="text" placeholder="Subject" required>                    
+                    </div>
+                    <div class="contact-form">
+                        <textarea placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    
+                </form>
+            </div>
+        
+        <div id="branch-info"></div>
+    </main>
+    <footer>
+        <p>@<span id="currentYear"></span> Bryan’s Café. <a href="privacy.html" target="_blank">Privacy Policy</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
