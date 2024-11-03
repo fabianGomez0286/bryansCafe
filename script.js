@@ -76,9 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
             menuHTML += '</div>'; // Closing meal container
 
             // Create beverage tables
-            menuHTML += '<h2>Beverages</h2>';
+            
 
             // Coffee and Hot Chocolates
+            menuHTML += '<h2>Coffee and Chocolate</h2>';
             menuHTML += '<div class="table-container"><table><thead><tr><th>Size</th><th>Price</th><th>Description</th></tr></thead><tbody>';
             for (let beverage of beverages) {
                 if (beverage.getElementsByTagName('type')[0].textContent === 'coffee') {
@@ -98,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
             menuHTML += '</tbody></table></div>'; // Closing coffee table
 
             // Other Beverages
+            menuHTML += '<h2>Other Beverages</h2>';
             menuHTML += '<div class="table-container"><table><thead><tr><th>Name</th><th>Price</th></tr></thead><tbody>';
             for (let beverage of beverages) {
                 if (beverage.getElementsByTagName('type')[0].textContent === 'other') {

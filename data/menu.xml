@@ -3,7 +3,7 @@
 <menu>
     <meal>
         <name>Beetroot and feta salad</name>
-        <price>$15.00</price>
+        <price>$150.00</price>
         <description>Suitable for vegetarians, made with fresh beetroot</description>
         <image>images/beetroot_feta_salad.jpg</image>
     </meal>
@@ -24,6 +24,24 @@
         <price>$19.50</price>
         <description>Tasty pancake filled with feta and salad</description>
         <image>images/feta_pancakes.jpg</image>
+    </meal>
+    <meal>
+        <name>Quinoa and Roasted Vegetable Bowl</name>
+        <price>$17.00</price>
+        <description>A hearty bowl of quinoa topped with seasonal roasted vegetables, drizzled with a lemon-tahini dressing. Perfect for a filling yet healthy option.</description>
+        <image>images/quinoa_bowl.jpg</image>
+    </meal>
+    <meal>
+        <name>Caprese Toast</name>
+        <price>$16.00</price>
+        <description>Roasted sourdough topped with fresh mozzarella, ripe tomatoes, basil, and a balsamic reduction. A simple, refreshing classic.</description>
+        <image>images/caprese_toast.jpg</image>
+    </meal>
+    <meal>
+        <name>Mushroom and Gruyère Croissant</name>
+        <price>$18.50</price>
+        <description>Flaky croissant filled with sautéed mushrooms and melted Gruyère cheese, served with a side of mixed greens. A savory pastry delight!</description>
+        <image>images/mushroom_croissant.jpg</image>
     </meal>
     
     <beverage>
