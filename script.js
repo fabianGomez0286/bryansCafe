@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="map-container">
                             <iframe 
                                 src="${mapUrl}" 
-                                width="400" 
+                                width="50%" 
                                 height="300" 
                                 style="border:0;" 
                                 allowfullscreen="" 
